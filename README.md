@@ -32,4 +32,8 @@ Please move [run_Fed2.rake](https://github.com/HHHeJiahui/Fed-2/blob/master/run_
 
 ## Step 5: Run Fed-2
 
-RAILS_ENV=development bundle exec rake run_Fed2:call
+First go to the mastodon directory: `cd mastodon/`
+
+Then run Fed-2 with the following command: 
+`RAILS_ENV=development Fed2:run_Fed2 trainer=YOUR_TRAINER calculator=YOUR_CALCULATOR gossip_peer_num=YOUR_GOSSIP_PEER_NUM gossip_data_time=YOUR_GOSSIP_DATA_TIME calculate_similarity_time=YOUR_CALCULATE_SIMILARITY_TIME federated_partner_num=YOUR_FEDERATED_PARTNER_NUM federated_learning_time=YOUR_FEDERATED_LEARNING_TIME`
+
