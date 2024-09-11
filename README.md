@@ -32,4 +32,4 @@ Please move [run_Fed2.rake](https://github.com/HHHeJiahui/Fed-2/blob/master/run_
 
 ## Step 5: Run Fed-2
 
-RAILS_ENV=development bundle exec rake Fed2:call
+RAILS_ENV=development bundle exec rake run_Fed2:call
