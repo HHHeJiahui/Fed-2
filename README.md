@@ -34,7 +34,8 @@ Please move [run_Fed2.rake](https://github.com/HHHeJiahui/Fed-2/blob/master/run_
 
 First go to the mastodon directory: `cd mastodon/`
 
-Then run Fed-2 with the following command: 
+Then run Fed-2 with the following command:
+
 `RAILS_ENV=development Fed2:run_Fed2 trainer=YOUR_TRAINER calculator=YOUR_CALCULATOR gossip_peer_num=YOUR_GOSSIP_PEER_NUM gossip_data_time=YOUR_GOSSIP_DATA_TIME calculate_similarity_time=YOUR_CALCULATE_SIMILARITY_TIME federated_partner_num=YOUR_FEDERATED_PARTNER_NUM federated_learning_time=YOUR_FEDERATED_LEARNING_TIME`
 
 In the command, you need to set some parameters, of course you can use the default value, the following is the description of each parameter:
