@@ -31,3 +31,5 @@ On lines 20-28 of [app.py](https://github.com/HHHeJiahui/Fed-2/blob/master/Fed-2
 Please move [run_Fed2.rake](https://github.com/HHHeJiahui/Fed-2/blob/master/run_Fed2.rake) files to /mastodon/lib/tasks/ path. By doing this you can run Fed-2 through the Mastodon CLI.
 
 ## Step 5: Run Fed-2
+
+RAILS_ENV=development bundle exec rake Fed2:call
